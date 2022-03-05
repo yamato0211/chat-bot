@@ -44,7 +44,7 @@ export default class FormDialog extends React.Component {
                 'Email :' + email + '\n' +
                 '内容 :' + discription
         }
-        const url = 'https://hooks.slack.com/services/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'
+        const url = 'slackApiのトークン'
         if (name === '' || email === '' || discription === '') {
             alert('必須項目はすべて記入してください。')
         } else {
