@@ -1,0 +1,77 @@
+.c-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.c-box {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 95%;
+    max-width: 432px;
+    padding: 0 1rem;
+    width: 100%;
+
+    /* Vertical and horizontal center alignment */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.c-grid__answer {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    height: 192px;
+}
+
+
+.p-chat__bubble {
+    background: #41B6E6;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: .5rem;
+    margin-right: 1rem;
+    max-width: 80%;
+    width: auto;
+}
+
+.p-chat__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 0 !important;
+}
+
+.p-chat__reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-right: 0 !important;
+}
+
+.p-question__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+}
+
+.p-question__description {
+    font-size: 1rem;
+    letter-spacing: .125rem;
+    line-height: 1.7;
+}
+
+.img{
+    background-image: url(https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqGz5pkwNEhTPC-_QtQ8JlESDCaxAYnb6Ryj8XgeIswMa1nAnccKh7KjY7JBclMEhx_GklhqO3h0qyjARVt4PJ2C2bcCtkmPcRW6GxvQV-SUVc1lOnXofuIx8PPUef4VCODlMm0xkHqJ_2YM9YuX_jjPrkVCTs0BmUOq0C-GpDZeCBlxo-F0dy2dged-UEbwi0DyO2WXUfB44nxf3WbEFDxhOQIuBEha5V59t6npLo6FVLQbfnFlGESxyOKYWe4gOPOzu8s03MWVGSgsjarAeJa0eTlAmzqt3kLt8WGoWnaHiLOTnge-li9DKwg-c5_0wuBrjqWogVft4CjhkksMyf_lvpkbZNjmGFUXFSMK0pQzvnEwvDEZf6yyAD-j5UVpfBUCsfpUGjJS45EULndnXRvzJzDZaF5E0xlNK7qX3D6d4eBkHtiD2otpQ8TfWWpvZ3a5rvOUCFPnvX7CbDQvuRJCiTGl3s89eY3A9yPaSqmGqwlyK4sdZlckxaOIP8Fes7r5fo7g_9IlMieiDg1cP-Fe2Sk56tgbg_47OntzzB-XupwQG6CJl7hsjA9H3C5AEtvIjdpKzKm-VaMtHRhEs8dBG_ASwnqyuAlLKpJFDEmTZifQSe9wJ9Xw9YjhsjhFbOm3DotcW5PtPnZkHrkOAyfFe54oaTF6s-noZu3OLArBtdOk0GS-ZDVEeNnhllQofMdwBH-RzEfCiWA4OuPTHYIh-CVshqxTIpDmvfJkIrPMdG661FtaHeRExeeWZZ-dKfJPhuKWuTmX0Sh0V5up71NEjI2UBtg6cFfFt-EjEgmWikg2TUWon14TQrPwboFlQOaA==/latest?errorImage=false);
+    background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
